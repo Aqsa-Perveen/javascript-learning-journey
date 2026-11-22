@@ -1,4 +1,3 @@
-
 # WEEK 1 — JAVASCRIPT FUNDAMENTALS REVISION
 
 # DAY 01 — INTRODUCTION TO JAVASCRIPT & VARIABLES
@@ -42,6 +41,11 @@ It allows developers to add functionality to websites, such as:
 HTML provides the structure of a website.
 
 Examples:
+<<<<<<< HEAD
+=======
+
+> > > > > > > a2544a5 (Add Day 01 JavaScript practice Exercises)
+
 - Headings
 - Paragraphs
 - Buttons
@@ -53,6 +57,7 @@ Examples:
 CSS is used to style and design a website.
 
 Examples:
+
 - Colors
 - Fonts
 - Layouts
@@ -64,6 +69,7 @@ Examples:
 JavaScript adds functionality and interactivity to a website.
 
 Examples:
+
 - Button click events.
 - Calculations.
 - Form validation.
@@ -90,9 +96,7 @@ JavaScript can be written directly inside an HTML element using an event attribu
 Example:
 
 ```html
-<button onclick="alert('Hello!')">
-    Click Me
-</button>
+<button onclick="alert('Hello!')">Click Me</button>
 ```
 
 Explanation:
@@ -110,18 +114,16 @@ Example:
 ```html
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>JavaScript Practice</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <h1>Hello JavaScript</h1>
 
     <script>
-        console.log("Hello World");
+      console.log("Hello World");
     </script>
-
-</body>
+  </body>
 </html>
 ```
 
@@ -139,16 +141,14 @@ HTML File (index.html):
 ```html
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>JavaScript Practice</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <h1>My First JavaScript</h1>
 
     <script src="script.js"></script>
-
-</body>
+  </body>
 </html>
 ```
 
@@ -430,8 +430,8 @@ Example:
 
 ```javascript
 const student = {
-    name: "Sara",
-    age: 20
+  name: "Sara",
+  age: 20,
 };
 
 student.age = 21;
@@ -453,12 +453,12 @@ The object's properties can change, but the student variable cannot be reassigne
 
 This is an important concept for interviews and practical programming.
 
-| Feature | var | let | const |
-|---|---|---|---|
-| Reassignment | Yes | Yes | No |
-| Redeclaration in same scope | Yes | No | No |
-| Block scoped | No | Yes | Yes |
-| Must initialize immediately | No | No | Yes |
+| Feature                     | var | let | const |
+| --------------------------- | --- | --- | ----- |
+| Reassignment                | Yes | Yes | No    |
+| Redeclaration in same scope | Yes | No  | No    |
+| Block scoped                | No  | Yes | Yes   |
+| Must initialize immediately | No  | No  | Yes   |
 
 ## 6.1 What is Scope?
 
@@ -478,15 +478,15 @@ A block is a section of code written inside curly braces { }.
 
 ```javascript
 {
-    let name = "Sara";
-    const age = 20;
-    var city = "Mianwali";
+  let name = "Sara";
+  const age = 20;
+  var city = "Mianwali";
 }
 
 console.log(city);
 
 console.log(name); // ReferenceError
-console.log(age);  // ReferenceError
+console.log(age); // ReferenceError
 ```
 
 Output:
@@ -589,19 +589,32 @@ Always choose meaningful variable names that explain what the variable stores.
 
 # PART 8: QUICK REVISION
 
-| Concept | Important Point |
-|---|---|
-| JavaScript | Makes websites interactive. |
-| HTML | Provides website structure. |
-| CSS | Provides website styling. |
-| External JS | JavaScript in a separate file. |
-| console.log() | Displays output in the console. |
-| Variable | Stores data using a name. |
-| var | Function-scoped. |
-| let | Block-scoped and reassignable. |
-| const | Block-scoped and not reassignable. |
-| Scope | Determines variable accessibility. |
-| camelCase | Common variable naming convention. |
+| Concept       | Important Point                    |
+| ------------- | ---------------------------------- |
+| JavaScript    | Makes websites interactive.        |
+| HTML          | Provides website structure.        |
+| CSS           | Provides website styling.          |
+| External JS   | JavaScript in a separate file.     |
+| console.log() | Displays output in the console.    |
+| Variable      | Stores data using a name.          |
+| var           | Function-scoped.                   |
+| let           | Block-scoped and reassignable.     |
+| const         | Block-scoped and not reassignable. |
+| Scope         | Determines variable accessibility. |
+| camelCase     | Common variable naming convention. |
+| Concept       | Important Point                    |
+| ------------- | ---------------------------------- |
+| JavaScript    | Makes websites interactive.        |
+| HTML          | Provides website structure.        |
+| CSS           | Provides website styling.          |
+| External JS   | JavaScript in a separate file.     |
+| console.log() | Displays output in the console.    |
+| Variable      | Stores data using a name.          |
+| var           | Function-scoped.                   |
+| let           | Block-scoped and reassignable.     |
+| const         | Block-scoped and not reassignable. |
+| Scope         | Determines variable accessibility. |
+| camelCase     | Common variable naming convention. |
 
 ---
 
@@ -640,4 +653,3 @@ Always choose meaningful variable names that explain what the variable stores.
 NEXT LESSON:
 
 DAY 02 — JAVASCRIPT DATA TYPES AND typeof
-
